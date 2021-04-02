@@ -1,0 +1,153 @@
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%);
+}
+
+body {
+    background-color: hsl(0, 0%, 98%);
+    font-family: 'Poppins';
+    font-size: 15px;
+}
+
+.content {
+    width: 1100px;
+    margin: auto;
+}
+
+.introduction {
+    text-align: center;
+    width: 500px;
+    margin: auto;
+}
+
+.i1 {
+    font-weight: 200;
+    color: hsl(234, 12%, 34%);
+    margin-top: 80px;
+    margin-bottom: 0;
+}
+
+.i2 {
+    font-weight: 600;
+    color: hsl(234, 12%, 34%);
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+p {
+    color: hsl(229, 6%, 66%);
+}
+
+.col-container {
+    display: table;
+    width: 100%;
+    margin-top: 60px;
+}
+
+.col {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.card {
+    width: 350px;
+    height: 250px;
+    border-top-style: solid;
+    border-radius: 4px;
+    border-width: 4px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.158), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    padding: 30px;
+    background-repeat: no-repeat;
+    background-position: 250px 150px;
+}
+
+h4 {
+    color: hsl(234, 12%, 34%);
+    margin-top: 0;
+}
+
+.col-container p {
+    font-size: 13px;
+    color: hsl(229, 6%, 66%);
+}
+
+.cyan {
+    border-color: hsl(180, 62%, 55%);
+    margin-right: 15px;
+    background-image: url("../images/icon-supervisor.svg");
+}
+
+.red {
+    border-color: hsl(0, 78%, 62%);
+    margin: 0 15px 30px;
+    background-image: url("../images/icon-team-builder.svg");
+}
+
+.orange {
+    border-color: hsl(34, 97%, 64%);
+    margin: 0 15px;
+    background-image: url("../images/icon-karma.svg");
+}
+
+.blue {
+    border-color: hsl(212, 86%, 64%);
+    margin-left: 15px;
+    background-image: url("../images/icon-calculator.svg");
+}
+
+@media only screen and (max-width: 375px) {
+    .content {
+        width: 310px;
+    }
+
+    .introduction {
+        width: 295px;
+    }
+
+    .i1 {
+        font-size: 1.5em;
+    }
+
+    .i2 {
+        font-size: 1.5em;
+    }
+
+    .col-container {
+        display: block;
+        width: auto;
+    }
+
+    .col {
+        display: block;
+        width: 100%;
+    }
+
+    .card {
+        width: 310px;
+        height: 220px;
+        background-position: 220px 130px;
+        margin-bottom: 20px;
+    }
+
+    .cyan {
+        margin-right: 0;
+    }
+
+    .red {
+        margin: 0 0 20px;
+    }
+
+    .orange {
+        margin: 0 0 20px;
+    }
+
+    .blue {
+        margin-left: 0px;
+    }
+}
